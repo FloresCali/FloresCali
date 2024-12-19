@@ -1,0 +1,179 @@
+body{font-size:62.5%;}
+header{width:100%}
+header video {
+    width: 100%;
+    object-fit: cover; /* Asegura que el video cubra todo el contenedor */
+    z-index: -1; /* Envía el video detrás del contenido */
+    pointer-events: none; /* Elimina cualquier interacción con el video */
+	position: fixed;
+}
+h1{
+	font-family: Comic Sans MS; 
+	font-size: 70px; 
+	background: linear-gradient(to top, rgba(40, 64, 222, 1), rgba(78, 64, 81, 0.8));
+	width:60%;
+	height: 50%;
+	border-radius:50px;
+	margin: 0px auto;
+	text-align: center;
+	padding:5px;
+	color:rgb(100,200,250);
+	box-shadow:rgba(132, 36, 217, 0.6) 20px 20px 10px;
+	text-shadow: #fff 5px 5px 3px;
+	}
+h2{
+	font-family: Comic Sans MS; 
+	margin:50px 20%;
+	padding:0px 0px 0px 0px;
+	color:rgb(110,210,250);
+	font-size: 45px;
+	text-shadow: #3 7px 7px 5px;
+	}
+h3{
+	font-family: Comic Sans MS; 
+	font-size: 40px; 
+	background: linear-gradient(to top, rgba(229, 40, 218, 0.6), rgba(40, 64, 222, 0.9));
+	width:50%;
+	height: 50%;
+	border-radius:50px;
+	margin: 20px 20%;
+	text-align: center;
+	padding:5px;
+	color:rgb(100,200,250);
+	box-shadow:rgba(229, 40, 218, 0.5) 15px 20px 15px;
+	text-shadow: #fff 5px 5px 3px;
+	float:left;
+	}
+h4{
+	font-family: Comic Sans MS; 
+	font-size: 30px; 
+	background: linear-gradient(to top, rgba(100,200,250, 0.9),rgba(229, 40, 218, 0.8));
+	width:40%;
+	height: 50%;
+	border-radius:50px;
+	margin: 20px 25%;
+	text-align: center;
+	padding:5px;
+	color:rgb(250,250,250);
+	box-shadow:rgba(229, 40, 218, 0.5) 15px 20px 15px;
+	text-shadow: rgb(100,100,150) 5px 5px 3px;
+	float:left;
+	}
+aside {
+    position: fixed; /* Fija el elemento para que no se mueva al hacer scroll */
+    top: 0; /* Alinea el elemento con la parte superior de la pantalla */
+    left: 0; /* Fija el elemento al margen izquierdo */
+    width: 17%; /* Ajusta el ancho según tus necesidades */
+    height: 100vh; /* Ocupa todo el alto de la ventana */
+    background-image: url("video/aside.jpeg");
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra opcional para efecto visual */
+    z-index: 0; /* Asegúrate de que el aside esté por encima de otros elementos */
+    overflow-y: auto; /* Habilita el scroll interno si el contenido es más grande que el alto */
+}
+aside div{
+	margin: 6%;
+	padding: 0 0;
+}
+aside div a button{
+	padding: 0 0;
+}
+h5{
+	font: bold 1.5em verdana, geneva, sans-serif;
+	margin:5px auto;
+	padding:5px 0px 10px 10px;
+	color:rgb(100,200,250);;
+	}
+li{
+	font: bold 1.5em verdana, geneva, sans-serif;
+	margin:5px auto;
+	padding:2px 0px 0px 0px;
+	color:rgb(200,200,220);
+	}
+li:hover, h5:hover {
+    text-decoration: underline; /* Subraya el texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra gris suave */
+    cursor: pointer; /* Cambia el cursor a una mano para indicar interactividad */
+	font: bold 2em verdana, geneva, sans-serif;
+}
+P {
+	font: normal 2em verdana, geneva, sans-serif;
+	padding:1px 15px;
+	color:rgb(100,200,255);
+}
+header p {
+	padding:0px 0px;
+	font: normal 1.5em verdana, geneva, sans-serif;
+	}
+section{
+	width:84%;
+	margin:10px 16% ;
+	top: 0;
+	float:left;
+	clear:none;
+	z-index: -1;
+	}
+section div{
+	float:left;
+	width:100%;
+	z-index: -1;
+	}	
+section div div{
+	float:left;
+	width:100%;
+	z-index: -1;
+	}
+figure{
+	float:left;	
+	width:"300"; 
+	height:"300";
+	padding:1px;	
+	position: relative;
+	}
+figure img{
+	padding:4px;
+	background:#888;
+	border-radius:10px;
+	margin-bottom:15px;
+	box-shadow: #999 5px 5px 10px;
+
+	}
+figure img:hover{
+	transform:scale(2.5);
+	transition:transform 0.3s ease-in-out 0.1s;
+	position: relative;
+	z-index: 1
+	}
+figcaption{
+	font-family: Serif;
+	font-size:1.5em;
+	text-align: center;
+	background: linear-gradient(to top, rgba(229, 40, 218, 0.7), rgba(229, 40, 218, 1));
+	padding: 4px 5px;
+	border-radius: 40%;
+	color:rgb(25,50,150);
+	
+	}
+footer{
+    min-height: 5px;
+    background-color: rgba(255,10,10,0.5);/*NEGRO*/
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+	float:down;
+	z-index: -2;
+	position: relative;
+	}
+button {
+	color: white; 
+	border: none; 
+	padding: 10px 20px; 
+	border-radius: 5px; 
+	cursor: pointer; 
+	font-size: 16px;
+	width="200";
+	height="200";
+	}
+button img {
+	width="200";
+	height="200";
+}
